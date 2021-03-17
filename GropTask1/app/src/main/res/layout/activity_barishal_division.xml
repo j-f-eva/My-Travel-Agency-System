@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BarishalDivision">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/barishal"
+        android:layout_height="200dp">
+
+        <TextView
+            android:layout_width="470dp"
+            android:layout_height="match_parent"
+
+            android:textColor="#E9ECEC"
+            android:textSize="20sp"
+
+            ></TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:background="#0E1000"
+
+        android:weightSum="6"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:id="@+id/btn_Barisal"
+
+                android:text="Barisal"
+                android:textSize="26sp"
+                android:textStyle="italic"
+                android:textColor="#0E1000"
+                android:background="@drawable/rajshahi_buttonshape_2">
+
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:id="@+id/btn_Barguna"
+
+                android:text="Barguna"
+                android:textSize="26sp"
+                android:textStyle="italic"
+                android:textColor="#221F1F"
+                android:background="@drawable/rajshahi_buttonshape_2">
+
+            </Button>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:id="@+id/btn_Bhola"
+
+                android:text="Bhola"
+                android:textSize="26sp"
+                android:textStyle="italic"
+                android:textColor="#0E1000"
+                android:background="@drawable/rajshahi_buttonshape_2">
+
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:id="@+id/btn_Jhalokati"
+
+                android:text="Jhalokati"
+                android:textSize="26sp"
+                android:textStyle="italic"
+                android:textColor="#221F1F"
+                android:background="@drawable/rajshahi_buttonshape_2">
+
+            </Button>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:id="@+id/btn_Patuakhali"
+
+                android:text="Patuakhali"
+                android:textSize="26sp"
+                android:textStyle="italic"
+                android:textColor="#0E1000"
+                android:background="@drawable/rajshahi_buttonshape_2">
+
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:id="@+id/btn_Pirojpur"
+
+                android:text="Pirojpur"
+                android:textSize="26sp"
+                android:textStyle="italic"
+                android:textColor="#221F1F"
+                android:background="@drawable/rajshahi_buttonshape_2">
+
+            </Button>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".KhulnaDivision">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/khulna"
+        android:layout_height="200dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            android:textSize="20sp"
+            android:textColor="#E9ECEC"
+
+            ></TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:background="#101200"
+
+            android:weightSum="10"
+
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Khulna"
+
+                    android:text="Khulna"
+                    android:textSize="26sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#221F1F"
+                    android:background="@drawable/khulna_buttonshape">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Bagerhat"
+
+                    android:text="Bagerhat"
+                    android:textSize="26sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#221F1F"
+                    android:background="@drawable/khulna_buttonshape_2">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Jessore"
+
+                    android:text="Jessore"
+                    android:textSize="26sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#221F1F"
+                    android:background="@drawable/khulna_buttonshape">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Jhenaidah"
+
+                    android:text="Jhenaidah"
+                    android:textSize="26sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#221F1F"
+                    android:background="@drawable/khulna_buttonshape_2">
+
+                </Button>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Kushtia"
+
+                    android:text="Kushtia"
+                    android:textSize="26sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#221F1F"
+                    android:background="@drawable/khulna_buttonshape">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Magura"
+
+                    android:text="Magura"
+                    android:textSize="26sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#221F1F"
+                    android:background="@drawable/khulna_buttonshape_2">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Meherpur"
+
+                    android:text="Meherpur"
+                    android:textSize="26sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#221F1F"
+                    android:background="@drawable/khulna_buttonshape">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Narail"
+
+                    android:text="Narail"
+                    android:textSize="26sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#221F1F"
+                    android:background="@drawable/khulna_buttonshape_2">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Satkhira"
+
+                    android:text="Satkhira"
+                    android:textSize="26sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#221F1F"
+                    android:background="@drawable/khulna_buttonshape">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Chuadanga"
+
+                    android:text="Chuadanga"
+                    android:textSize="26sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#221F1F"
+                    android:background="@drawable/khulna_buttonshape_2">
+
+                </Button>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

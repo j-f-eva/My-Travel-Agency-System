@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DhakaDivision">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/dhaka">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:textColor="#E9ECEC"
+            android:textSize="20sp"
+
+            ></TextView>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:background="#E9F1A0"
+
+            android:weightSum="13"
+
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Dhaka"
+
+                    android:text="Dhaka"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#271D1D"
+                    android:background="@drawable/dhaka_buttonshape">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Faridpur"
+
+                    android:text="Faridpur"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#221F1F"
+                    android:background="@drawable/dhaka_buttonshape_2">
+
+                </Button>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Gazipur"
+
+                    android:text="Gazipur"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#271D1D"
+                    android:background="@drawable/dhaka_buttonshape">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Gopalganj"
+
+                    android:text="Gopalganj"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#221F1F"
+                    android:background="@drawable/dhaka_buttonshape_2">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Kishoreganj"
+
+                    android:text="Kishoreganj"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#271D1D"
+                    android:background="@drawable/dhaka_buttonshape">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Madaripur"
+
+                    android:text="Madaripur"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#221F1F"
+                    android:background="@drawable/dhaka_buttonshape_2">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Manikganj"
+
+                    android:text="Manikganj"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#271D1D"
+                    android:background="@drawable/dhaka_buttonshape">
+
+                </Button>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Munshiganj"
+
+                    android:text="Munshiganj"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#221F1F"
+                    android:background="@drawable/dhaka_buttonshape_2">
+
+                </Button>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Narayanganj"
+
+                    android:text="Narayanganj"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#271D1D"
+                    android:background="@drawable/dhaka_buttonshape">
+
+                </Button>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Narsingdi"
+
+                    android:text="Narsingdi"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#221F1F"
+                    android:background="@drawable/dhaka_buttonshape_2">
+
+                </Button>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Tangail"
+
+                    android:text="Tangail"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#271D1D"
+                    android:background="@drawable/dhaka_buttonshape">
+
+                </Button>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Rajbari"
+
+                    android:text="Rajbari"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#221F1F"
+                    android:background="@drawable/dhaka_buttonshape_2">
+
+                </Button>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Shariatpur"
+
+                    android:text="Shariatpur"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#271D1D"
+                    android:background="@drawable/dhaka_buttonshape">
+
+                </Button>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

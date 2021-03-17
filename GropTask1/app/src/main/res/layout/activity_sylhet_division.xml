@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SylhetDivision">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/sylhet"
+        android:layout_height="200dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            android:textSize="20sp"
+            android:textColor="#E9ECEC"
+
+            ></TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:background="#121211"
+
+            android:weightSum="4"
+
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Sylhet"
+
+                    android:text="Sylhet"
+                    android:textSize="26sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#1E0101"
+                    android:background="@drawable/sylhet_buttonshape">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Sunamganj"
+
+                    android:text="Sunamganj"
+                    android:textSize="26sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#221F1F"
+                    android:background="@drawable/main_activity_buttonshape_2">
+
+                </Button>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Moulvibazar"
+
+                    android:text="Moulvibazar"
+                    android:textSize="26sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#0E0000"
+                    android:background="@drawable/sylhet_buttonshape">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Habiganj"
+
+                    android:text="Habiganj"
+                    android:textSize="26sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#221F1F"
+                    android:background="@drawable/main_activity_buttonshape_2">
+
+                </Button>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

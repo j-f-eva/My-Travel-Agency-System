@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MymensinghDivision">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/mymensingha"
+        android:layout_height="200dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:textSize="20sp"
+            android:textColor="#E9ECEC"
+
+            ></TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:background="#10100F"
+
+            android:weightSum="4"
+
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Mymensingh"
+
+                    android:text="Mymensingh"
+                    android:textSize="26sp"
+                    android:textStyle="italic"
+                    android:textColor="#0C0C0C"
+                    android:background="@drawable/mymensingh_buttonshape">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Jamalpur"
+
+                    android:text="Jamalpur"
+                    android:textSize="26sp"
+                    android:textStyle="italic"
+                    android:textColor="#0C0C0C"
+                    android:background="@drawable/mymensingh_buttonshape_2">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Netrokona"
+
+                    android:text="Netrokona"
+                    android:textSize="26sp"
+                    android:textStyle="italic"
+                    android:textColor="#0C0C0C"
+                    android:background="@drawable/mymensingh_buttonshape">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Sherpur"
+
+                    android:text="Sherpur"
+                    android:textSize="26sp"
+                    android:textStyle="italic"
+                    android:textColor="#0C0C0C"
+                    android:background="@drawable/mymensingh_buttonshape_2">
+
+                </Button>
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

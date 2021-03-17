@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChattagramDivision">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/chattagram"
+        android:layout_height="180dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:textColor="#E9ECEC"
+            android:textSize="20sp"
+
+            ></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:background="#070000"
+
+            android:weightSum="11"
+
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Chittagong"
+
+                    android:text="Chittagong"
+                    android:textSize="20sp"
+                    android:textStyle="italic"
+                    android:textColor="#070000"
+                    android:background="@drawable/rangpur_buttonshape_2">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Comilla"
+
+                    android:text="Comilla"
+                    android:textSize="20sp"
+                    android:textStyle="italic"
+                    android:textColor="#070000"
+                    android:background="@drawable/rangpur_buttonshape">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Chandpur"
+
+                    android:text="Chandpur"
+                    android:textSize="20sp"
+                    android:textStyle="italic"
+                    android:textColor="#070000"
+                    android:background="@drawable/rangpur_buttonshape_2">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Lakshmipur"
+
+                    android:text="Lakshmipur"
+                    android:textSize="20sp"
+                    android:textStyle="italic"
+                    android:textColor="#070000"
+                    android:background="@drawable/rangpur_buttonshape">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Noakhali"
+
+                    android:text="Noakhali"
+                    android:textSize="20sp"
+                    android:textStyle="italic"
+                    android:textColor="#070000"
+                    android:background="@drawable/rangpur_buttonshape_2">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Feni"
+
+                    android:text="Feni"
+                    android:textSize="20sp"
+                    android:textStyle="italic"
+                    android:textColor="#070000"
+                    android:background="@drawable/rangpur_buttonshape">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Khagrachhari"
+
+                    android:text="Khagrachhari"
+                    android:textSize="20sp"
+                    android:textStyle="italic"
+                    android:textColor="#070000"
+                    android:background="@drawable/rangpur_buttonshape_2">
+
+                </Button>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Rangamati"
+
+                    android:text="Rangamati"
+                    android:textSize="20sp"
+                    android:textStyle="italic"
+                    android:textColor="#070000"
+                    android:background="@drawable/rangpur_buttonshape">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Bandarban"
+
+                    android:text="Bandarban"
+                    android:textSize="20sp"
+                    android:textStyle="italic"
+                    android:textColor="#070000"
+                    android:background="@drawable/rangpur_buttonshape_2">
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Coxs_Bazar"
+
+                    android:text="Cox's Bazar"
+                    android:textSize="20sp"
+                    android:textStyle="italic"
+                    android:textColor="#070000"
+                    android:background="@drawable/rangpur_buttonshape">
+
+                </Button>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/btn_Brahmanbaria"
+
+                    android:text="Brahmanbaria"
+                    android:textSize="20sp"
+                    android:textStyle="italic"
+                    android:textColor="#070000"
+                    android:background="@drawable/rangpur_buttonshape_2">
+
+                </Button>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
